@@ -27,20 +27,35 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ff5122275333be6ca50c.js"
+    "url": "webpack-runtime-934b47687a60702bed19.js"
   },
   {
-    "url": "framework-bee7a8ddabfa6589450d.js"
+    "url": "styles.33119cc97108cf0a8c4e.css"
   },
   {
-    "url": "app-e4b8eb14663d50661a9b.js"
+    "url": "styles-407fe62976dc5310c43e.js"
+  },
+  {
+    "url": "35e86a61-865ec51e917cd14ada56.js"
+  },
+  {
+    "url": "3084c821-2bdb610552fc49df5dd8.js"
+  },
+  {
+    "url": "d2956fd2-92b890c6125e0bf96457.js"
+  },
+  {
+    "url": "dc6a8720040df98778fe970bf6c000a41750d3ae-2954bff62dd0e3b002cd.js"
+  },
+  {
+    "url": "app-ab2d2dde43ab07d09c3a.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a79cedb496f15588e8d58f85cd743a29"
+    "revision": "38ede86f2e94d5cc1e9d5cc25817c6ec"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-19879a601606f01603b0.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b34c861d679c4cf151d0.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -48,14 +63,18 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "fe82cfd7b43a9dc172fe569e7f4a8ba7"
+    "revision": "a29b4116f722315b62df62ec48dc6312"
   },
   {
-    "url": "polyfill-fd41d3bba3dba0c60639.js"
+    "url": "polyfill-6ac56ab21e71fa8ff7ab.js"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "b773e901ef06ac93343dc05e67540787"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "b209c81a733fe6cd1a2dce46ae7e7f2c"
+    "revision": "c64a60205c0ef03c13a52bd809eb1bbf"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +161,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/my-blog`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/my-blog/app-e4b8eb14663d50661a9b.js`))) {
+  if (!resources || !(await caches.match(`/app-ab2d2dde43ab07d09c3a.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +179,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/my-blog/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
