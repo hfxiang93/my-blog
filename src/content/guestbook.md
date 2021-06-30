@@ -4,7 +4,8 @@ id: https://calpa.me/guestbook/
 title: 留言板
 slug: /guestbook
 date: 2017-01-01T03:48:03.125Z
-description: ""
+headerImage: https://i.imgur.com/VIwlQkx.jpeg
+description: "欢迎留言啊"
 tags:
   - 阅读
 ---

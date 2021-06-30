@@ -59,21 +59,23 @@ const Card = ({
 );
 
 Card.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   date: PropTypes.string,
   url: PropTypes.string.isRequired,
   headerImage: PropTypes.string,
   headerBackgroundColor: PropTypes.string,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   tags: PropTypes.arrayOf(PropTypes.string),
 };
 
 CardHeader.propTypes = Card.propTypes;
 
 Card.defaultProps = {
+  title: '',
   headerImage: '',
   tags: [],
   date: '',
+  description: '',
   headerBackgroundColor: '',
 };
 

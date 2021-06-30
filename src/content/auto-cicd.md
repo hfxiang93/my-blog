@@ -4,8 +4,8 @@ id: cicd
 title: 前端CICD
 slug: /2021/06/30/cicd/
 date: 2021-06-30T03:48:03.125Z
-description: 你好，欢迎來到我的博客。我是 xianghaifeng，前端程序员。
-headerImage: https://i.imgur.com/mich3dS.jpg
+description: CICD 是 持续集成（Continuous Integration）和持续部署（Continuous Deployment）简称。。。
+headerImage: https://i.imgur.com/0zJeQoG.jpeg
 tags:
   - 阅读
 ---
