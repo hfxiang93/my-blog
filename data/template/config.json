@@ -1,0 +1,69 @@
+{
+  "url": "https://hfxiang93.github.io/my-blog/",
+  "meta": {
+    "favicon": "https://i.imgur.com/PO9Y4fT.jpg",
+    "keyword": "xianghaifeng, blog, JavaScript",
+    "description": "xianghaifeng 的技术博客，开发日常，以及遇到的坑",
+    "theme_color": "#384f7c",
+    "google_site_verification": "riZBcestky7i9xY__A-5J-2EE65T75X1u-zgbss37Io"
+  },
+  "name": "xianghaifeng",
+  "about": "/2018/05/01/about-haifeng93/",
+  "email": "xianghaifeng93@gmail.com",
+  "stats": {
+    "image": "https://i.imgur.com/VjBWiSt.png",
+    "title": "过去三十天数据",
+    "description": "过去三十天数据"
+  },
+  "title": "xianghaifeng 的技术博客",
+  "gitalk": {
+    "repo": "my-blog",
+    "admin": ["hfxiang93"],
+    "owner": "hfxiang93",
+    "clientID": "dcb896f05cac3ffbc730",
+    "clientSecret": "762c767e66ce18b4de5260c69b33c5ef6aa8f489",
+    "pagerDirection": "first",
+    "distractionFreeMode": true
+  },
+  "License": "by",
+  "friends": [
+    {
+      "href": "https://hfxiang93.github.io/my-blog/",
+      "title": "xianghaifeng's Blog"
+    }
+  ],
+  "iconUrl": "https://i.imgur.com/kjt2x52.jpg",
+  "wordings": ["VueJS, ReactJS", "前端开发"],
+  "gaTrackId": "UA-84737574-3",
+  "navbarList": [
+    {
+      "href": "/guestbook/",
+      "title": "留言板"
+    },
+    {
+      "href": "/tags/",
+      "title": "Tags"
+    },
+    {
+      "href": "/2018/05/01/about-haifeng93/",
+      "title": "关于作者"
+    }
+  ],
+  "redirectors": [
+    {
+      "toPath": "/2018/05/01/about-haifeng93/",
+      "fromPath": "/about/"
+    }
+  ],
+  "gaOptimizeId": "GTM-WHP7SC5",
+  "carouselItems": [
+    {
+      "src": "https://i.imgur.com/gw91CuI.jpg",
+      "target": "/stats/"
+    }
+  ],
+  "zhihuUsername": "xianghaifeng",
+  "githubUsername": "xianghaifeng",
+  "maxPostsInPage": 10,
+  "facebook": "xianghaifeng"
+}
