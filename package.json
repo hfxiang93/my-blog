@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "description": "hfxiang93's Blog",
+  "description": "hfxiang's Blog",
   "version": "1.0.0",
   "author": "hfxiang<hfxiang93@gmail.com>",
   "dependencies": {
@@ -69,6 +69,7 @@
     "develop": "gatsby develop",
     "develop:remote": "gatsby develop -p 8080 -H 0.0.0.0",
     "deploy": "npm run build && gh-pages -d public",
+    "deployed": "gh-pages -d public",
     "format": "eslint --fix --ignore-path .gitignore .",
     "format-style": "stylelint src/**/*.scss --syntax=scss",
     "test": "echo \"Error: no test specified\" && exit 1",
