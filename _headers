@@ -62,6 +62,19 @@
   Link: </my-blog/component---src-templates-index-js-c838df8557450989edee.js>; rel=preload; as=script
   Link: </my-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </my-blog/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/my-blog/2021/07/01/code/
+  Link: </my-blog/webpack-runtime-81c80a1ba9abfd9453f2.js>; rel=preload; as=script
+  Link: </my-blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </my-blog/35e86a61-865ec51e917cd14ada56.js>; rel=preload; as=script
+  Link: </my-blog/3084c821-2bdb610552fc49df5dd8.js>; rel=preload; as=script
+  Link: </my-blog/d2956fd2-92b890c6125e0bf96457.js>; rel=preload; as=script
+  Link: </my-blog/dc6a8720040df98778fe970bf6c000a41750d3ae-2954bff62dd0e3b002cd.js>; rel=preload; as=script
+  Link: </my-blog/app-663c77f8f854a54792d8.js>; rel=preload; as=script
+  Link: </my-blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </my-blog/6d48cd64-abfe6ee44b0602d69467.js>; rel=preload; as=script
+  Link: </my-blog/component---src-templates-blog-post-js-f4debd2a74ea88c7c944.js>; rel=preload; as=script
+  Link: </my-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </my-blog/page-data/2021/07/01/code/page-data.json>; rel=preload; as=fetch; crossorigin
 /my-blog/2021/06/30/cicd/
   Link: </my-blog/webpack-runtime-81c80a1ba9abfd9453f2.js>; rel=preload; as=script
   Link: </my-blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
