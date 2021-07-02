@@ -7,7 +7,7 @@ date: 2021-07-01T03:48:03.125Z
 description: 手撸实现各种代码
 headerImage: https://i.imgur.com/0zJeQoG.jpeg
 tags:
-  - 阅读
+  - coding
 ---
 # 1.手撸Promise
 ```javascript

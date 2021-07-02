@@ -7,7 +7,7 @@ date: 2021-06-30T03:48:03.125Z
 description: CICD 是 持续集成（Continuous Integration）和持续部署（Continuous Deployment）简称。。。
 headerImage: https://i.imgur.com/0zJeQoG.jpeg
 tags:
-  - 阅读
+  - 前端自动化
 ---
 ## 在线阅读 https://hfxiang93.github.io/auto-CI-CD/
 <a name="bsFgN"></a>
